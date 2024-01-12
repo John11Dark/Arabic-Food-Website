@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Roboto:wght@100;300;500&display=swap');
+
+:root{
+    --clr-primary: #FFA300;
+    --clr-primary-light: #ffe9c1;
+}
 *{
     margin: 0;
     padding: 0;
@@ -114,57 +119,6 @@ transition: 0.5s ease-in-out;
     
 }
 
-/* Home Page*/
-
-.hero-section{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 2.5rem;   
-    z-index: 10;
-    max-height: 90vh;
-    margin: 2em auto;
-    overflow: hidden;
-    margin-left: 150px;
-    margin-top: 70px;
-}
-
-.hero-typography{
-    display: grid;
-    align-items: center;
-    align-content: center;
-    justify-items: flex-start;
-    text-align: center;
-    height: 550px;
-    width: 500px;
-}
-
-.hero-title{
-    font-size: 4.8rem;
-    font-weight: 500;
-    color: #FFE9C1;
-}
-
-.hero-subtitle{
-    font-size: 2.5rem;
-    font-weight: 500;
-    color: #FFE9C1;
-    margin-left: 30px;
-}
-
-.hero-image{
-    flex: 1;
-    margin-top: 150px;
-    margin-left: 100px;
-    overflow: hidden;
-}
-.hero-image img{
-    width: 70%;
-    height: auto;
-    display: block;
-    align-items: center;
-}
 
 /* About Page*/
 
